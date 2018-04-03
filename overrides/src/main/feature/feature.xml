@@ -12,12 +12,12 @@
  ~ without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  ~ See the GNU Lesser General Public License for more details.
  ~
- ~ Copyright 2017 Hitachi Vantara. All rights reserved.
+ ~ Copyright 2018 Hitachi Vantara. All rights reserved.
  -->
 
 <features name="${project.artifactId}-repo" xmlns="http://karaf.apache.org/xmlns/features/v1.2.1">
   <feature name="${project.artifactId}" version="${project.version}">
     <details>${project.description}</details>
-    <bundle>mvn:org.apache.activemq/activemq-osgi/5.10.1</bundle>
+    <bundle>mvn:org.apache.activemq/activemq-osgi/5.15.3</bundle>
   </feature>
 </features>
